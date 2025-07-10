@@ -1,6 +1,6 @@
 export default function Divider({ wording }) {
   return (
-    <div className="relative my-16">
+    <div className="sticky top-0 left-0 w-full my-4 z-10 bg-white py-4">
       <div aria-hidden="true" className="absolute inset-0 flex items-center">
         <div className="w-full border-t border-gray-300" />
       </div>

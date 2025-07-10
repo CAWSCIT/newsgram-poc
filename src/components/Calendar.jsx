@@ -2,7 +2,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
 
 const months = [
   {
-    name: 'January',
+    name: 'August',
     days: [
       { date: '2021-12-27' },
       { date: '2021-12-28' },
@@ -49,7 +49,7 @@ const months = [
     ],
   },
   {
-    name: 'February',
+    name: 'September',
     days: [
       { date: '2022-01-31' },
       { date: '2022-02-01', isCurrentMonth: true },
@@ -168,36 +168,45 @@ export default function Calendar() {
         <ol className="mt-2 divide-y divide-gray-200 text-sm/6 text-gray-500">
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
-              Wed, Jan 12
+              {/* Todays date formatted like: Wed, Jan 12 */}
+              {new Date().toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
             </time>
             <p className="mt-2 flex-auto sm:mt-0">Nothing on today’s schedule</p>
           </li>
-          <li className="py-4 sm:flex">
+          <li className="py-4 sm:flex items-center">
             <time dateTime="2022-01-19" className="w-28 flex-none">
-              Thu, Jan 13
+              August 1 - 3, 2025
             </time>
-            <p className="mt-2 flex-auto font-semibold text-gray-900 sm:mt-0">Sample Event Listing Here</p>
+            <p className="mt-2 flex-auto font-semibold text-gray-900 sm:mt-0">
+              Greater Missouri Show Me Recovery Convention<br />
+              <small className="font-normal">3400 Rider Trail South, Earth City, MO</small>
+            </p>
             <p className="flex-none sm:ml-6">
-              <time dateTime="2022-01-13T14:30">2:30 PM</time> - <time dateTime="2022-01-13T16:30">4:30 PM</time>
+              <a className="underline hover:no-underline" href="https://camissouri.org/">See Area Website</a>
             </p>
           </li>
-          <li className="py-4 sm:flex">
-            <time dateTime="2022-01-20" className="w-28 flex-none">
-              Fri, Jan 14
+          <li className="py-4 sm:flex items-center">
+            <time dateTime="2022-01-19" className="w-28 flex-none">
+              September 19 - 21, 2025
             </time>
-            <p className="mt-2 flex-auto font-semibold text-gray-900 sm:mt-0">Upccoming Convention</p>
-            <p className="flex-none sm:ml-6">All weekend</p>
-          </li>
-          <li className="py-4 sm:flex">
-            <time dateTime="2022-01-18" className="w-28 flex-none">
-              Mon, Jan 17
-            </time>
-            <div className="flex-auto">
-                <p className="mt-2 font-semibold text-gray-900 sm:mt-0">35th Ohio Area Convention</p>
-                <p className="mt-2  text-gray-900 sm:mt-0">Double Tree Worthington, 175 Hutchinson Dr. Columbus, OH 43235</p>
-            </div>
+            <p className="mt-2 flex-auto font-semibold text-gray-900 sm:mt-0">
+              C.A. Ireland 2025 Convention<br />
+              <small className="font-normal">Lough Atalia Rd., Galway, H91 CYN3, Ireland</small>
+            </p>
             <p className="flex-none sm:ml-6">
-              <time dateTime="2022-01-17T10:00">Saturday 10:00 AM</time> - <time dateTime="2022-01-17T10:15">Sunday 11:30 PM</time>
+              <a className="underline hover:no-underline" href="https://www.caireland.live/">See Area Website</a>
+            </p>
+          </li>
+          <li className="py-4 sm:flex items-center">
+            <time dateTime="2022-01-19" className="w-28 flex-none">
+              September 19 - 21, 2025
+            </time>
+            <p className="mt-2 flex-auto font-semibold text-gray-900 sm:mt-0">
+              Southern Ontario Area Convention<br />
+              <small className="font-normal">33 Carlson Ct., Toronto, Ont., Canada, M9W 6H5</small>
+            </p>
+            <p className="flex-none sm:ml-6">
+              <a className="underline hover:no-underline" href="https://ca-on.org/">See Area Website</a>
             </p>
           </li>
         </ol>

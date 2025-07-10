@@ -10,7 +10,7 @@ const people = [
   {
     name: 'Michael Foster',
     email: 'contact@ca.org',
-    role: 'Trustee at Large',
+    role: 'Editor',
     location: 'Frankfurt, Germany',
     imageUrl:
       'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -18,7 +18,7 @@ const people = [
   {
     name: 'Dries Vincent',
     email: 'contact@ca.org',
-    role: 'Treasurer',
+    role: 'Liaison',
     location: 'Copenhagen, Denmark',
     imageUrl:
       'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -26,7 +26,7 @@ const people = [
   {
     name: 'Lindsay Walton',
     email: 'contact@ca.org',
-    role: 'Director of Operations',
+    role: 'Co-Editor',
     location: 'Some place, Earth',
     imageUrl:
       'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -34,22 +34,14 @@ const people = [
   {
     name: 'Courtney Henry',
     email: 'contact@ca.org',
-    role: 'WSO Trustee',
+    role: 'Archives Manager',
     location: 'Frankfurt, Germany',
     imageUrl:
       'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
   },
-  {
-    name: 'Tom Cook',
-    email: 'contact@ca.org',
-    role: 'Director at Large',
-    location: 'Frankfurt, Germany',
-    imageUrl:
-      'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
 ]
 
-export default function ContactList() {
+export default function NewsGramContactList() {
   return (
     <ul role="list" className="divide-y divide-gray-100">
       {people.map((person) => (
@@ -61,7 +53,7 @@ export default function ContactList() {
               <p className="mt-1 truncate text-xs/5 text-gray-500">{person.email}</p>
             </div>
           </div>
-          <div className="shrink-0 sm:flex sm:flex-col sm:items- text-right">
+          <div className="text-right shrink-0 sm:flex sm:flex-col sm:items-end">
             <p className="text-sm/6 text-gray-900">{person.role}</p>
             <p className="text-xs/5 text-gray-500">{person.location}</p>
           </div>

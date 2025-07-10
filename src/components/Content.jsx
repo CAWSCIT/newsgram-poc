@@ -1,6 +1,7 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import DoubleColumnContent from './DoubleColumnContent.jsx'
 
-export default function Content() {
+export default function Content({ hasDoubleColumn = false}) {
   return (
     <div className="relative isolate overflow-hidden bg-white py-16 sm:py-24">
       <div
@@ -10,9 +11,9 @@ export default function Content() {
       </div>
       <div className="">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <p className="text-base/7 font-semibold text-indigo-600">Frankfurt, Germany</p>
+          <p className="text-base/7 font-semibold text-indigo-600">Romford, Essex, England</p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-            Article Example (written only)
+            From darkness to light, a recovery story (written only)
           </h1>
           <p className="mt-6 text-xl/8 text-gray-700">
             This is an example of a standardized written article with no images.
@@ -33,109 +34,101 @@ export default function Content() {
                   className="mt-1 size-10 flex-none rounded-full bg-gray-50"
                 />
                 <div className="text-sm/6">
-                  <div className="font-semibold text-gray-900">Max N</div>
-                  <div className="text-gray-600">Frankfurt, Germany</div>
+                  <div className="font-semibold text-gray-900">Vinny P.</div>
+                  <div className="text-gray-600">Romford, Essex, England</div>
                 </div>
               </figcaption>
             </figure>
           </div>
-          <div className="max-w-xl text-base/7 text-gray-700 lg:col-span-7">
+          <div className="max-w-xl text-lg/7 text-gray-700 lg:col-span-7">
             <p>
-              Liebe ist unbesiegbar. Ich erinnere mich, dass ich
-                als junger Mann oft sehr wütend war. Ich war oft so
-                wütend, dass ich wegen Kleinigkeiten ausgeflippt bin.
-                Da hat es genügt, dass jemand mir auf den Fuß
-                getreten ist oder etwas gesagt hat, was meinen Kopf
-                verdreht hat. Denn als Suchtkranker habe ich ein
-                verdrehtes Denken. Das hat oft dazu geführt, dass ich
-                nicht wusste, wie ich mich verhalten sollte. Ich hatte
-                Angst, in solchen Situationen zu reagieren, weil ich
-                Angst hatte, überzureagieren. Also, habe ich nie etwas
-                gesagt.
+              I was an addict for 30+ years. From a young age
+I experienced situations that I thought were normal but
+in fact haunted me and turned me into a person I didn’t
+realise I was becoming.
             </p>
             <p className="mt-4">
-Dann hatte ich einen starken Groll auf mich
-selbst, aber auch auf die Personen, um die sich der
-Groll drehte. Ich wusste nicht, dass es Groll war. Ich
-wusste nicht, dass ich suchtkrank war. Ich wusste auch
-nicht, gegen wen dieser Groll gerichtet war. Ich war
-völlig hilflos und verzweifelt und habe mich ganz
-einsam und alleine auf dieser Welt gefühlt.
-Unzugehörig und nutzlos. Ohne Freunde, ohne
-Menschen, denen ich vertrauen konnte. Mein Kopf hat
-sich immer mehr isoliert und das Einzige, was mir
-blieb, um mit diesem Problem fertig zu werden, war
-der Konsum von bewusstseinsverändernden
-Substanzen.
+My childhood friends distanced themselves from
+me due to my erratic behaviour in school. I was
+gradually more and more dishonest, reckless, violent
+and impulsive. I was a compulsive liar in denial about
+how I felt and how my actions affected others.
             </p>
             <p className="mt-4">
-Wenn ich konsumiert habe, hat sich all dieses
-Kopfkino, der Amoklauf im Kopf sofort gewendet ins
-Gegenteil und ich fühlte mich leicht, mutig, ohne
-Angst. Ich konnte mit Menschen sprechen. Ich konnte
-in den Spiegel sehen und war zufrieden. Ich fühlte
-keinen Groll und ich fühlte keine Wut. Ich fühlte auch
-selten Angst. Das war aber nicht sehr lange möglich,
-weil ich suchtkrank bin.
+Feelings and emotions were a nuisance, so I
+suppressed them with all sorts of substances including
+alcohol and over-the-counter medication.
             </p>
             <p className="mt-4">
-Das heißt, dass ich schnell mehr
-bewusstseinsverändernde Substanzen brauchte, um mit
-meinen Gefühlen fertig zu werden. Denn außer dem
-Groll ist da auch eine schlimme Leere in mir und diese
-Leere musste ich permanent füllen, aufs Neue und aufs
-Neue. Mit den Jahren wurde es immer schlimmer und
-auch mein Groll wurde immer stärker, weil die Lösung
-gegen meinen Groll hier langsam mehr und mehr
-versagte. Der Effekt ging verloren. Das hat dazu
-geführt, dass ich mich oft fast getötet hätte mit dem
-Konsumieren. Und nicht mehr ein noch auswusste.
+For years I thought the problem was how or
+what I used, I convinced myself that if I just switched
+substances, controlled my intake, or found the right
+mix, I could manage.
             </p>
             <p className="mt-4">
-nsumieren. Und nicht mehr ein noch auswusste.
-Ich danke Gott heute, dass er mich 2018 in die
-Räume der Genesung geführt hat und auch in die
-Räume von Cocaine Anonymous. Ich danke Gott
-dafür, dass ich jetzt hier lebend sitzen darf und diese
-Geschichte für das NewsGram vorbereiten darf. Und
-ich danke Gott dafür, dass er mir den Titel gegeben hat
-"Liebe ist unbesiegbar”.
+But the real problem wasn’t the using it was that
+I thought using was a solution, I was trapped in a cycle
+of self-destruction desperately trying to silence the
+chaos in my mind.
             </p>
             <p className="mt-4">
-Liebe ist unbesiegbar, denn wenn ich mit Gott
-gehe und wenn ich dem Weg der Liebe folge, dann
-wird der Groll weniger. Und das ist das große in
-heutigen Zeiten in meinem Leben geworden, dass ich
-den Groll erkenne und damit umgehen kann und dass
-er dann wieder verschwindet. Dass ich so Tag für Tag
-zu einer besseren Version von mir selbst werden kann,
-die in erster Linie sich selbst liebt und somit auch
-andere lieben kann und somit Menschen helfen kann.
+This destructive mindset and behaviour from a
+young age led me to crime, disconnection from my
+immediate family, divorce, bankruptcy, a driving ban,
+prison, suicide attempts, and life support machines.
             </p>
             <p className="mt-4">
-Ich liebe das Gebet des vierten Schritts für einen
-kranken Menschen: "Das ist ein kranker Mensch, wie
-kann ich ihm helfen? Gott bewahre mich davor
-ärgerlich zu werden. Dein Wille geschehe."
+Every rock bottom had a basement, and I found
+them all, no matter how far I fell I always found a new
+low.
             </p>
             <p className="mt-4">
-Das sind alles Dinge, die ich im Programm von
-Cocaine Anonymous lernen durfte. Mit dem Groll
-umzugehen, mit einem Sponsor.
+Just before I had my trip to the ICU unit for life
+support, I was lucky to be given a second chance when
+I met my now wife, though her support wasn’t enough
+and I drove my new family bonkers too.
             </p>
             <p className="mt-4">
-Mit dem Blauen Buch und natürlich zunächst mit
-der Inventur im Vierten Schritt
+In the final moments of that day when I pushed
+them too far I lost them. And as much as I wanted to
+think it would be ok, they love me so they will take me
+back, I can return and do as I see fit, they shut me out.
+No matter what I said or how I pleaded, threatened or
+tried to manipulate, they would not budge.
             </p>
             <p className="mt-4">
-All die Dinge, die mich seit Jahren und sogar
-Jahrzehnten belasten, von mir nehmen zu lassen, frei
-zu werden und im Sonnenlicht des Geistes zu
-stehen. Danke Gott und danke Cocaine Anonymous.
+I was forced to accept that the problem was me
+and not everyone around me and I was sent to rehab. I
+genuinely thought rehab and all these support groups
+were a bunch of low life’s and I didn’t belong there. I
+was thinking of a plan to get this trip to rehab over and
+done with so the family could shut up and I would be
+back like nothing ever happened.
             </p>
+            <p className="mt-4">
+              After going through the rehab process I realised
+I was not alone, there were other addicts in similar
+situations with life experiences just like mine, and they
+are just like anyone else, normal people with their own
+troubles and issues.
+              </p>
+            <p className="mt-4">
+              Whilst in rehab I listened to people's stories and
+this opened my eyes to this disease that resides in my
+mind, and that I have a long road to recovery and
+finding my own self again.
+</p>
+            <p className="mt-4">
+              To face every day I needed support that would
+help me get through one day at a time as I battle this
+disease, I was out in the real world now, not the guardianship of the rehab.
+</p>
+
+
           </div>
         </div>
       </div>
+      {hasDoubleColumn && <DoubleColumnContent />}
     </div>
   )
 }

@@ -12,31 +12,60 @@ import CTA from './components/CTA.jsx'
 import Subscribe from './components/Subscribe.jsx'
 import Calendar from './components/Calendar.jsx'
 import DonationSchedule from './components/DonationSchedule.jsx'
+import MessageBar from './components/MessageBar.jsx'
+import NewsGramContactList from './components/NewsGramContactList.jsx'
+import TableOfContents from './components/TableOfContents.jsx'
+import DoubleColumnContent from './components/DoubleColumnContent.jsx'
+import InterviewContent from './components/InterviewContent.jsx'
+import DoubleImageContent from './components/DoubleImageContent.jsx'
+import StandAloneDoubleColumnContent from './components/StandAloneDoubleColumnContent.jsx'
+import CTA2 from './components/CTA2.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <MessageBar />
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <Header />
-      <Content />
-      <Divider wording="Info" />
+      <TableOfContents />
+      <Divider wording="Page 1" />
+      <Content hasDoubleColumn={true}/>
+      <Divider wording="Page 2" />
       <DoubleColumn />
-      <Divider wording="Article" />
+      <Divider wording="Page 3" />
       <Content />
-      <Divider wording="Committee Corner" />
-      <SingleImage title="Archives" imgSrc="https://placehold.co/600x400" />
-      <Divider wording="Article" />
+      <Divider wording="Page 4" />
+      <SingleImage title="Finance Committee" imgSrc={`${import.meta.env.BASE_URL}img/how-dark.png`} />
+      <Divider wording="Page 5" />
       <ContentDoubleImage />
-      <Divider wording="From The Editor" />
+      <Divider wording="Page 6" />
+      <InterviewContent />
+      <Divider wording="Page 7" />
+      <DoubleImageContent />
+      <Divider wording="Page 8" />
+      <SingleImage title="World Convention" imgSrc={`${import.meta.env.BASE_URL}img/caws-convention.png`} />
+      <Divider wording="Page 9" />
+      <Content />
+      <Divider wording="Page 10" />
+      <StandAloneDoubleColumnContent />
+      <Divider wording="Page 11" />
       <CTA />
-      <Divider wording="Committee Corner" />
-      <SingleImage title="Finance" imgSrc={`${import.meta.env.BASE_URL}img/how-dark.png`} />
-      <Divider wording="Article" />
+
+      {/* No page divider needed */}
+      <CTA2 />
+      <Divider wording="Page 12" />
       <Content />
       <Subscribe />
-      <Divider wording="Upcoming Events" />
+
+      <Divider wording="Page 13" />
       <Calendar />
-      <Divider wording="7th Tradition Donations" />
+
+      <Divider wording="Page 14" />
       <DonationSchedule />
+
+      <Divider wording="How to submit an article" />
+      <CTA />
+
     </div>
   </StrictMode>,
 )

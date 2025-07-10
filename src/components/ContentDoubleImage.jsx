@@ -1,7 +1,8 @@
 export default function ContentDoubleImage() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+
+      <div className="mx-auto max-w-2xl lg:max-w-7xl">
         <div className="max-w-4xl">
           <p className="text-base/7 font-semibold text-indigo-600">Leduc, Alberta, Canada</p>
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
