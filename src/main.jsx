@@ -29,21 +29,21 @@ createRoot(document.getElementById('root')).render(
       <Header />
       <TableOfContents />
       <Divider wording="Page 1" />
-      <Content hasDoubleColumn={true}/>
-      <Divider wording="Page 2" />
       <DoubleColumn />
+      <Divider wording="Page 2" />
+      <Content hasDoubleColumn={true}/>
       <Divider wording="Page 3" />
-      <Content />
-      <Divider wording="Page 4" />
       <SingleImage title="Finance Committee" imgSrc={`${import.meta.env.BASE_URL}img/how-dark.png`} />
-      <Divider wording="Page 5" />
-      <ContentDoubleImage />
+      {/* <Divider wording="Page 4" /> */}
+      {/* <Content /> */}
+      <Divider wording="Page 4" />
+      <SingleImage title="2026 World Convention" imgSrc={`${import.meta.env.BASE_URL}img/caws-convention.png`} />
       <Divider wording="Page 6" />
       <InterviewContent />
       <Divider wording="Page 7" />
       <DoubleImageContent />
       <Divider wording="Page 8" />
-      <SingleImage title="World Convention" imgSrc={`${import.meta.env.BASE_URL}img/caws-convention.png`} />
+      <ContentDoubleImage />
       <Divider wording="Page 9" />
       <Content />
       <Divider wording="Page 10" />

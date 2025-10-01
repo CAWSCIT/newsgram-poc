@@ -16,50 +16,34 @@ export default function TableOfContents() {
 
                 <div className="my-2 flex justify-between">
                     <div className="">
-                        From Darkness to Light
+                        Info - C.A. Trusted Servants
                     </div>
                     <div className="text-right">
-                        1
+                        Page 1
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
                     <div className="">
-                        C.A. Trusted Servants
+                        The Gift Of Friendship
                     </div>
                     <div className="text-right">
-                        2
+                        Page 2
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
                     <div className="">
-                        The Freedom Fund (How to Donate to C.A.)
+                         The Freedom Fund (How to Donate to C.A.)
                     </div>
                     <div className="text-right">
-                        4
+                        Page 3
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
                     <div className="">
-                        The Night I Met The Greeter
+                        2026 Convention
                     </div>
                     <div className="text-right">
-                        5
-                    </div>
-                </div>
-                <div className="my-2 flex justify-between">
-                    <div className="">
-                        An Interview In Memory of Steve A.
-                    </div>
-                    <div className="text-right">
-                        6 & 7
-                    </div>
-                </div>
-                <div className="my-2 flex justify-between">
-                    <div className="">
-                        Self-Esteem In Recovery
-                    </div>
-                    <div className="text-right">
-                        8
+                        Page 5
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
@@ -67,18 +51,34 @@ export default function TableOfContents() {
                         Trustee’s Corner
                     </div>
                     <div className="text-right">
-                        9
+                        Page 6
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
                     <div className="">
-                        Convention Tour Information
+                        IT's corner
                     </div>
                     <div className="text-right">
-                        10
+                        Page 7
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
+                    <div className="">
+                        S&B's Corner
+                    </div>
+                    <div className="text-right">
+                        Page 8
+                    </div>
+                </div>
+                <div className="my-2 flex justify-between">
+                    <div className="">
+                        Conference's Corner
+                    </div>
+                    <div className="text-right">
+                        Page 9
+                    </div>
+                </div>
+                {/* <div className="my-2 flex justify-between">
                     <div className="">
                         How Hope, Faith & Courage Build
                     </div>
@@ -229,7 +229,7 @@ export default function TableOfContents() {
                     <div className="text-right">
                         28
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>

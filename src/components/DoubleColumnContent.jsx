@@ -2,131 +2,131 @@
 export default function DoubleColumnContent() {
   return (
     <div className="py-16 sm:py-24">
+
         <div className="sm:columns-2 gap-8 text-lg/7 text-gray-700">
             <div>
-                <p className="mb-4">
-Mentally I was really weak, the chatter of a
-thousand monkeys in my head kept me restless,
-irritable, and discontent. One of the most confusing
-things was why my second family did not take me
-back; I did everything I was told but my wife said she
-had no feelings for me.
+            <p className="mb-4">
+What’s more beautiful is how these relationships
+have evolved over time. As I’ve grown in the program
+I’ve had the privilege of sponsoring others. At first my
+role was to guide them through The Steps and help
+them stay sober but what unfolded was so much more,
+many of my sponsees have become some of my
+closest friends. We’ve gone on vacations together, not
+just for conventions, but for the pure joy of living life
+clean and connected. Whether it's road-tripping to the
+beach, walking through Central Park, or just escaping
+the city for a weekend getaway, these trips have
+solidified our bonds and reminded me of how far
+we've come.
+            </p>
+            <p className="mb-4">
+It’s funny, when I look back at my life before I
+got sober I realize how few true friendships I actually
+had. To this day I can count on one hand the number
+of people from that part of my life that I still speak to,
+just three. And even those relationships have changed
+because I’ve changed, I’m not the same person I was
+before 1993. Recovery hasn’t just given me a new life,
+it’s given me a new heart, a new mind, and a new way
+of connecting with others.
+            </p>
+            <p className="mb-4">
+Today, almost all of my friends come from the
+rooms of Cocaine Anonymous. They understand me in
+a way that no one else can because they’ve walked the
+same path. They know what it’s like to feel hopeless
+and to rediscover hope. They know what it means to
+make amends, to forgive, and to grow.
+            </p>
+            <p className="mb-4">
+We’ve celebrated milestones together, from 30-day
+chips to 30-year anniversaries and we’ve stood by one
+another in times of loss, grief, and hardship. Our
+friendships are forged not in convenience or
+proximity, but in shared experience and spiritual
+growth.
+            </p>
+            <p className="mb-4">
+My sister often tells me “You have a lot of
+friends”, she’s right and I never get tired of hearing it
+because it wasn’t always that way. I remember feeling
+completely alone in my addiction convinced that no one
+could possibly understand or care. And yet here I am living
+a life filled with companionship, laughter, and love. That
+abundance is a direct result of the Fellowship of Cocaine
+Anonymous. It’s because of C.A. that I’m no longer
+isolated, it’s because of C.A. that I’ve built a network
+of friends who not only accept me but inspire me to
+be my best self.
+            </p>
+            <p className="mb-4">
+Now, as I prepare for a big transition, my move
+to Texas in November of 2025, I find myself
+reflecting on just how much the Fellowship has given
+me. Of course I’ll miss my New York crew, the
+parades the spontaneous dinners, the late-night phone
+calls. But I also feel an incredible sense of excitement
+because I know without a doubt that C.A. exists in
+Texas too. And that means new meetings, new faces,
+and new friends waiting to be made.
+            </p>
+            <p className="mb-4">
+I don’t fear the move I embrace it, recovery has
+taught me how to be open, how to show up and how
+to build connections no matter where I go. I know that
+the Principles of this Program are universal, and the
+Fellowship extends beyond state lines. I’ve already
+started researching meetings in my future city and I’m
+looking forward to walking into those rooms as a
+newcomer to the area, but not a newcomer to the way
+of life that has sustained me for over 30 years.
+            </p>
+            <p className="mb-4">
+I also look forward to bringing the spirit of my
+New York Fellowship with me. I’ll carry the lessons,
+the laughter and the love that my friends here have
+given me and who knows maybe some of them will
+come visit. Maybe we’ll find new parades to attend,
+new places to watch fireworks, and new adventures to
+go on together, just like old times in a new place.
+              </p>
+            <p className="mb-4">
+Friendship in recovery is not just about having
+people to hang out with, it’s about accountability,
+vulnerability, and mutual growth. It’s about walking
+hand in hand with others as we navigate this wild and
+wonderful journey of sobriety. And it’s about
+celebrating the miracle of being alive, clean, and
+connected.
+</p>
+            <p className="mb-4">
+I often think of the phrase we hear in the rooms
+“You’ll find a life beyond your wildest dreams”. That
+life for me has never been about material success or
+fame, it’s been about relationships, the deep soulnourishing kind that recovery makes possible. It’s
+about sitting at a diner after a meeting laughing so
+hard your stomach hurts. It’s about showing up for
+someone when they need you most, it’s about being
+part of something greater than yourself.
 </p>
 <p className="mb-4">
-
-I was still very much short tempered and
-demanding, like a child I was stomping my feet
-because nothing was going my way. I was reluctant to
-seek help from support groups like A.A. and N.A., like
-I said I thought it was for a bunch of losers, some kind
-of cult full of bible bashers.
+  Thirty-plus years ago I never would’ve
+imagined the kind of friendships I have today. But
+here I am, living proof that recovery works and that
+Fellowship heals. I am beyond grateful for every
+person who has walked with me on this journey from
+my first sponsor to my newest sponsee, they’ve all
+played a role in shaping the life I live today.
 </p>
 <p className="mb-4">
-
-It wasn’t until I stumbled into Cocaine
-Anonymous that I heard something different, they
-didn’t just talk about stopping they spoke about living
-in the real solution. A spiritual program of action not
-just words, not just meetings, but action.
-Something inside me resisted at first, half
-measures had been my way of life, but in C.A. I
-learned that “Half Measures Availed Us Nothing
-“(From A.A. page 59). If I wanted to recover I had to
-go all in, two feet in, at all times.
-Though I was against seeking such support I
-dragged myself to those meetings every day for a
-couple of months. That's where I learned that I have to
-recover not to get my family back but recover for my
-own self first.
+  As I look ahead to the next chapter in Texas my
+heart is full, I’m not just moving I’m expanding.
+Expanding my horizons, my heart, and my circle of
+friends, and I can't wait to see what and who is
+waiting for me on the other side.
 </p>
-<p className="mb-4">
 
-To my surprise I actually met some really
-wonderful people with whom I am now friends with.
-The people I was surrounded by had various sobriety
-times and each shared how they dealt with hurdles.
-But most importantly they didn’t want anything from
-me they just gave me a hug and wished me to get well.
-Through working the program I started to see the
-truth. My biggest obstacles weren’t drugs or alcohol,
-but my selfishness, self-centeredness, self-delusion,
-self-seeking, and self-pity. These had poisoned my life
-more than any substance ever could. I had to face
-them to take responsibility and to let go of the old
-patterns that had kept me sick for so long.
-</p>
-<p className="mb-4">
-
-As a newcomer you are weak so it is suggested
-to find yourself a sponsor who will take you through
-each of the 12 Steps thoroughly.
-</p>
-<p className="mb-4">
-
-I had to be honest for the first time in my life, I had to
-open up about things I thought I'd take to the grave.
-For instance, as we worked slowly through each step
-my 4th Step showed me that I should be dead and
-definitely should be grateful for being alive today. My
-sponsor helped me understand and control my thought
-flow, what were the actual reasons for my actions and
-disruptive behaviour.
-</p>
-<p className="mb-4">
-
-With the guidance of my sponsor and his no
-excuse attitude I was forced to accept that soon I
-would have to make amends to everyone I hurt.
-I can say right now as I write this that I managed
-to make amends to my father in time. I built a
-relationship, a great friendship with him from the
-moment I made amends to the moment he passed 6th
-Jan 2021. I have priceless memories of getting a first
-hug and kiss on the forehead when I made amends to
-him and only have one regret which is of not seeking
-recovery sooner.
-</p>
-<p className="mb-4">
-
-As I came to terms with him passing away it has
-been difficult and thoughts of using came and went but
-the tools of recovery work, they have kept me clean
-and sober.
-</p>
-<p className="mb-4">
-
-The C.A. group's support is amazing, it feels like
-you are never alone and genuinely there is no excuse to
-pick up now.
-</p>
-<p className="mb-4">
-
-I am no longer the Jekyll and Hyde character I
-used to be. I have learned to utilize the tools that were
-given to me by the program and they help me deal with
-everything that life throws at me. I also keep an eye on
-my character defects which sometimes is not easy, but
-I can laugh at them now and stay positive.
-One day at a time I have managed to stay clean
-and sober. The restless nights, the inner turmoil, the
-stinking thinking has all faded. Not because life got
-easier but because I found a way to live with life on
-life’s terms.
-</p>
-<p className="mb-4">
-
-Today I stay in service, unity, and recovery
-because that is what keeps me grounded. I give back
-what was freely given to me, I listen, I learn and I
-show up. I no longer search for an escape because I
-have found a way to live a way that is real,
-meaningful, and full of purpose.
-</p>
-<p className="mb-4">
-
-The problem was never the drugs, the problem
-was me, but today I am free.
-</p>
 
             </div>
         </div>
