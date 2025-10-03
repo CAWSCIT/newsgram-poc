@@ -15,7 +15,7 @@ export default function TableOfContents() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-8">Table of Contents</h3>
 
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Info - C.A. Trusted Servants
                     </div>
                     <div className="text-right">
@@ -23,7 +23,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         The Gift Of Friendship
                     </div>
                     <div className="text-right">
@@ -31,7 +31,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                          The Freedom Fund (How to Donate to C.A.)
                     </div>
                     <div className="text-right">
@@ -39,7 +39,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         2026 Convention
                     </div>
                     <div className="text-right">
@@ -47,7 +47,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Trustee’s Corner
                     </div>
                     <div className="text-right">
@@ -55,7 +55,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         IT's corner
                     </div>
                     <div className="text-right">
@@ -63,7 +63,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         S&B's Corner
                     </div>
                     <div className="text-right">
@@ -71,7 +71,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Conference's Corner
                     </div>
                     <div className="text-right">
@@ -79,7 +79,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 {/* <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         How Hope, Faith & Courage Build
                     </div>
                     <div className="text-right">
@@ -87,7 +87,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Self-Esteem In Recovery
                     </div>
                     <div className="text-right">
@@ -95,7 +95,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Theme & Deadline for Next Issue
                     </div>
                     <div className="text-right">
@@ -103,7 +103,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Self-Esteem In Recovery
                     </div>
                     <div className="text-right">
@@ -111,7 +111,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Public Information Committee Survey
                     </div>
                     <div className="text-right">
@@ -119,7 +119,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Self-Esteem
                     </div>
                     <div className="text-right">
@@ -127,7 +127,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Trustee’s Corner
                     </div>
                     <div className="text-right">
@@ -135,7 +135,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         UK Distribution of Key Tags
                     </div>
                     <div className="text-right">
@@ -143,7 +143,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         From Desperation To Confidence
                     </div>
                     <div className="text-right">
@@ -151,7 +151,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         C.A. Mobile App Info
                     </div>
                     <div className="text-right">
@@ -159,7 +159,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Self-Esteem In Recovery
                     </div>
                     <div className="text-right">
@@ -167,7 +167,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Die Heilung Meiner Tiefsten Wunden
                     </div>
                     <div className="text-right">
@@ -175,7 +175,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         NewsGram Policy
                     </div>
                     <div className="text-right">
@@ -183,7 +183,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         How To View The NewsGram
                     </div>
                     <div className="text-right">
@@ -191,7 +191,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         How To Submit An Article etc.
                     </div>
                     <div className="text-right">
@@ -199,7 +199,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         The Healing Of My Deepest Wounds
                     </div>
                     <div className="text-right">
@@ -207,7 +207,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Self-Esteem
                     </div>
                     <div className="text-right">
@@ -215,7 +215,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         Calendar Of Events
                     </div>
                     <div className="text-right">
@@ -223,7 +223,7 @@ export default function TableOfContents() {
                     </div>
                 </div>
                 <div className="my-2 flex justify-between">
-                    <div className="">
+                    <div className="max-w-[70%]">
                         7th Tradition Donations
                     </div>
                     <div className="text-right">

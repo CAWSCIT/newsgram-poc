@@ -37,7 +37,7 @@ export default function NewsGramContactList() {
               <p className="mt-1 truncate text-xs/5 text-gray-500">{person.role} {person.email}</p>
             </div>
           </div>
-          <div className="text-right shrink-0 sm:flex sm:flex-col sm:items-end">
+          <div className="text-right shrink-0 sm:flex sm:flex-col sm:items-end hidden">
             <p className="text-sm/6 text-gray-900">{person.role}</p>
             <p className="text-xs/5 text-gray-500">{person.location}</p>
           </div>
